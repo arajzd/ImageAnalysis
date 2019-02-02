@@ -1,5 +1,5 @@
 true_positive = 0;
-max_percentage = 0;
+max_percentage = -inf;
 best_sigma = inf;
 warning('off','all')
 for i = 1:size(digits_validation,2)
